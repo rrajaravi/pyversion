@@ -1,7 +1,7 @@
 pyversion
 =================================
 
-Version Checker for Python libraries
+Version Parser for Python libraries
 
 Installation
 ------------
