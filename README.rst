@@ -1,12 +1,14 @@
 pyversion
 =================================
+.. image:: https://travis-ci.org/rrajaravi/pyversion.svg?branch=master
+    :target: https://travis-ci.org/rrajaravi/pyversion
 
 Version Parser for Python libraries
 
 Installation
 ------------
 
--  ``python -m pip install pyversion``
+-  ``python setup.py install``
 
 Example
 -------
