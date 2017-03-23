@@ -8,7 +8,7 @@ setup(
     name='pyversion',
     packages=['pyversion'],
     version='1.0',
-    description='version checker for python library',
+    description='version parser for python library',
     long_description=read_me(),
     author='rajaravi',
     author_email='r.rajaravi@gmail.com',
