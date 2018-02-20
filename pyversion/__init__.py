@@ -24,7 +24,7 @@ def get_dir(libname):
         _module = __import__(str(libname))
     except ImportError:
         return None
-    if hasattr(_module, '__file__'):
+    if getattr(_module, '__file__', None):
         return os.path.dirname(_module.__file__)
     else:
         return None
